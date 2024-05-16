@@ -1,0 +1,14 @@
+install metaspark studio
+create account 
+create new blank project 
+- add assets (facemesh)
+- change the material of facemesh
+- open google and search download face assets
+- after downloading the assets
+- open photopie and extract the assets and select the masculine image 
+- edit accordingly and then add the image to the material using texture 
+
+
+
+
+https://www.youtube.com/watch?v=IGnJfxSNjUE

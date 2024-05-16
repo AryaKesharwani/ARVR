@@ -1,0 +1,32 @@
+- open unity hub
+- create new project
+- select 3d core 
+- give project name 
+- delete main camera
+- goto windows > package manager > Packages: Unity Registry 
+- search for AR Foundation 
+- goto edit > Project Settings > XR Plug in Management >Android select AR CORE
+- goto file > build settings > Android click switch platform 
+- goto edit > project settings > player > Android 
+- disable AutoGraphics API
+- and remove vulkan 
+- come to configuration 
+- scripting backend to IL2CPP
+- and change minimum API level to 24 
+- close the build settings 
+- now we need to add components 
+- goto XR > AR session 
+- goto XR > XR origin 
+- goto XR > AR Default Plane 
+- bring AR Default Plane > Assets
+- delete the AR Default Plane 
+- select the AR session and add component AR plane manager 
+- bring the AR Default Plane to > AR plane manager prefab 
+- save 
+- goto file > build settings > Android > add scene
+- click on build 
+
+
+
+
+https://www.youtube.com/watch?v=WMIshR8Yd2U
